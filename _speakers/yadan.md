@@ -8,9 +8,9 @@ webpage: https://luoyadan.github.io/
 
 # Primary affiliation of the speaker
 affil: University of Queensland
-affil_short: UQ
+affil_short: U of Queensland
 # Link to the speaker's primary affiliation
-affil_link:
+affil_link: https://luoyadan.github.io/
 
 # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
 img: yadan.png

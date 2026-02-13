@@ -8,7 +8,7 @@ webpage: https://fabioramos.github.io/Home.html
 
 # Primary affiliation of the speaker
 affil: University of Sydney, Nvidia
-affil_short:
+affil_short: U of Sydney, Nvidia
 # Link to the speaker's primary affiliation
 affil_link: https://profiles.sydney.edu.au/fabio.ramos
 

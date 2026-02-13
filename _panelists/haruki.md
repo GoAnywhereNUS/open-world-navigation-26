@@ -10,7 +10,7 @@ webpage: https://harukins.github.io/
 affil: Toyota Research Institute
 affil_short: TRI
 # Link to the speaker's primary affiliation
-affil_link: 
+affil_link: https://harukins.github.io/
 
 # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
 img: haruki.jpg

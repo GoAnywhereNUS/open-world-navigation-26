@@ -29,7 +29,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/open-world-navigation-26/speakers/">Speakers</a><a class="page-link" href="/open-world-navigation-26/schedule/">Schedule</a><a class="page-link" href="/open-world-navigation-26/callforvideos/">Call for videos</a><a class="page-link" href="/open-world-navigation-26/callforpapers/">Call for papers</a><a class="page-link" href="/open-world-navigation-26/papers/">Papers</a><a class="page-link" href="/open-world-navigation-26/contactus/">Contact us</a></div>
+        <div class="trigger"><a class="page-link" href="/open-world-navigation-26/speakers/">Speakers</a><a class="page-link" href="/open-world-navigation-26/schedule/">Schedule</a><a class="page-link" href="/open-world-navigation-26/challenge/">Navitrace Challenge</a><a class="page-link" href="/open-world-navigation-26/callforvideos/">Call for videos</a><a class="page-link" href="/open-world-navigation-26/callforpapers/">Call for papers</a><a class="page-link" href="/open-world-navigation-26/contactus/">Contact us</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -43,17 +43,18 @@
 <source src="assets/img/own_banner_cropped.mp4" type="video/mp4" />
 </video>
 
-<p>Can a robot be deployed anywhere in the world, then navigate its surroundings zero-shot to reach a goal? Navigation in the open world remains an elusive grail of robotics, owing to the sheer diversity of environments, agents and scenarios a robot can encounter. With the rise of foundation models, robots have attained unprecedented levels of generalization, enabling progress toward open world navigation. Yet training data is bounded, making it almost certain robots will encounter unexpected, out-of-distribution scenarios. Thus achieving open world navigation requires taking a path that balances improving generalization with out-of-distribution handling. Recent workshops have focused on individual elements of this, such as applications of LLMs/VLMs to navigation or robot failure management. In contrast, this workshop seeks to provide a timely and unique perspective on system design for open world navigation, that unites the application of increasingly powerful and general foundation models with explicit consideration of failures and out-of-distribution scenarios.</p>
+<p>This workshop focuses on robust open-world navigation (OWN) in the era of foundation models. While large-scale data and foundation models have enabled impressive generalization across environments, embodiments, and scenarios, training data is bounded and such models have shown signs of brittleness, leading to failures that undermine reliable deployment. Discussions at the previous iteration of the OWN workshop clearly highlighted these and other persistent gaps in robustness and reliability when applying foundation models to navigation. Building on these insights, this second edition of the OWN workshop aims to explore these gaps by advancing our understanding of foundation models’ failure modes and exploring principled approaches to failure handling. Overall, the workshop seeks to drive a focused discussion on how to progress toward OWN with foundation models, with an emphasis on building robust, reliable, and failure-resilient systems.</p>
 
 <p>In particular, this workshop aims to answer the questions:</p>
 
 <ul>
-  <li>How do we build generalizable systems for open world navigation with foundation models?</li>
-  <li>How do we detect failures of such systems, particularly for scenarios that are out-of-distribution for learned/foundation models?</li>
-  <li>What strategies can be employed to mitigate failures or recover from them?</li>
-  <li>What are suitable benchmarks to gauge progress in open world navigation?
-<br /></li>
+  <li>What role do foundation models play in building systems for open-world navigation? What capabilities do current models provide, and what missing capabilities must be developed to support open-world navigation?</li>
+  <li>What are the key failure modes of foundation models in navigation, and how should we evaluate and address them?</li>
+  <li>How should navigation systems handle the inevitable out-of-distribution scenarios and failures in the open world? How can uncertainty be quantified and failures handled in the context of foundation models?</li>
+  <li>What benchmarks are needed to gauge progress in open-world navigation?</li>
 </ul>
+
+<p><br /></p>
 
 <h3 id="speakers-and-panelists"><center>Speakers and Panelists</center></h3>
 
@@ -71,7 +72,7 @@
           
           <br />
           
-            <a href="https://profiles.sydney.edu.au/fabio.ramos" target="_blank"></a>
+            <a href="https://profiles.sydney.edu.au/fabio.ramos" target="_blank">U of Sydney, Nvidia</a>
           
           
         </div>
@@ -105,7 +106,7 @@
           
           <br />
           
-            Toyota Central R&amp;D Labs, UC Berkeley
+            <a href="https://sites.google.com/view/noriaki-hirose/" target="_blank">Toyota Central R&amp;D Labs, UC Berkeley</a>
           
           
         </div>
@@ -122,7 +123,7 @@
           
           <br />
           
-            DEEP Robotics
+            <a href="https://cn.linkedin.com/in/wei-tang-158402100" target="_blank">DEEP Robotics</a>
           
           
         </div>
@@ -139,7 +140,7 @@
           
           <br />
           
-            University of Queensland
+            <a href="https://luoyadan.github.io/" target="_blank">U of Queensland</a>
           
           
         </div>
@@ -156,7 +157,24 @@
           
           <br />
           
-            Toyota Research Institute
+            <a href="https://harukins.github.io/" target="_blank">TRI</a>
+          
+          
+        </div>
+      </div>
+    
+      <div style="flex: 0 1 200px; text-align: center;">
+        
+        
+          <img class="people-pic" src="http://localhost:4000/open-world-navigation-26/assets/img/speakers/kavi.jpeg" alt="Dr. Kavindie Katuwandeniya" style="width: 150px; height: 150px; object-fit: cover; border-radius: 10px;" />
+        
+        <div style="margin-top: 0.5rem;">
+          
+            <b><a href="https://people.csiro.au/k/k/kavi-katuwandeniya" target="_blank">Dr. Kavindie Katuwandeniya</a></b>
+          
+          <br />
+          
+            <a href="https://people.csiro.au/k/k/kavi-katuwandeniya" target="_blank">CSIRO</a>
           
           
         </div>
@@ -167,91 +185,22 @@
 
 <p><br /></p>
 
+<h3 id="navitrace-challenge"><center>Navitrace Challenge</center></h3>
+<p>We are accepting submissions to the Navitrace Challenge for VLMs in navigation! Please refer to the <a href="/challenge/">NaviTrace Challenge</a> page for more details.</p>
+
+<p>🏆 <strong>Challenge Prize</strong>: <em>TBC</em></p>
+
 <h3 id="call-for-videos"><center>Call for Videos</center></h3>
 
 <p>We are accepting short videos related to the challenges or failure modes of robot navigation systems in the open world, which we will screen during the workshop. Please refer to the <a href="/callforvideos/">Call for Videos</a> for more details.</p>
 
-<p>🏆 <strong>Best Video Award</strong>: FrodoBot Mini+ Robot</p>
+<p>🏆 <strong>Best Video Award</strong>: <em>TBC</em></p>
 
 <h3 id="call-for-papers"><center>Call for Papers</center></h3>
 
-<!-- We are excited to announce that Best Paper and Best Paper Runner-Up awards will be given at the workshop! -->
-
-<!-- 🏆 Best Paper Award: $300 -->
-<!-- 🥈 Best Paper Runner-Up: $100 -->
-
 <p>We are accepting paper submissions related to generalization and failure handling in robot navigation. Please refer to the <a href="/callforpapers/">Call for Papers</a> for more details.</p>
 
-<p>🏆 <strong>Best Paper Award</strong>: FrodoBot Mini+ Robot</p>
-
-<p style="text-align: center;">
-<em>Time to 1st call for papers deadline</em> (15 Aug 2025):
-</p>
-
-<center>
-<div id="countdown1" style="font-size: 1.5rem; font-weight: bold;"></div>
-<script>
-  // Countdown 1
-  const countdownDate1 = new Date("2025-08-16T00:00:00").getTime();
-  const countdownElement1 = document.getElementById("countdown1");
-
-  const updateCountdown1 = () => {
-    const now = new Date().getTime();
-    const distance = countdownDate1 - now;
-  
-    if (distance < 0) {
-      countdownElement1.innerHTML = "0d 0h 0m 0s";
-      return;
-    }
-
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    countdownElement1.innerHTML =
-      days + "d " + hours + "h " + minutes + "m " + seconds + "s";
-  };
-
-  updateCountdown1();
-  setInterval(updateCountdown1, 1000);
-</script>
-</center>
-
-<p><br /></p>
-<p style="text-align: center;">
-<em>Time to 2nd call for papers deadline</em> (<s>19 Sep 2025</s> <font color="red">26 Sep 2025</font>):
-</p>
-
-<center>
-<div id="countdown2" style="font-size: 1.5rem; font-weight: bold;"></div>
-<script>
-  // Countdown 2
-  const countdownDate2 = new Date("2025-09-27T20:00:00").getTime();
-  const countdownElement2 = document.getElementById("countdown2");
-
-  const updateCountdown2 = () => {
-    const now = new Date().getTime();
-    const distance = countdownDate2 - now;
-
-    if (distance < 0) {
-      countdownElement2.innerHTML = "0d 0h 0m 0s";
-      return;
-    }
-
-    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-    countdownElement2.innerHTML =
-      days + "d " + hours + "h " + minutes + "m " + seconds + "s";
-  };
-
-  updateCountdown2();
-  setInterval(updateCountdown2, 1000);
-</script>
-</center>
+<p>🏆 <strong>Best Paper Award</strong>: <em>TBC</em></p>
 
 <h3 id="organizers"><center>Organizers</center></h3>
 
@@ -451,7 +400,7 @@
 <p><br /></p>
 <h3 id="sponsors"><center>Sponsors</center></h3>
 
-<center><img src="assets/img/frodobots.png" alt="drawing" width="400" /></center>
+<center><img src="assets/img/bitrobot.jpeg" alt="drawing" width="400" /></center>
 
 <h3><center></center></h3>
 
@@ -480,7 +429,7 @@
         <p><a href="https://github.com/krrish94/sniffle-workshop.git">Template</a>
 </p>
         
-        Last updated: February 09, 2026.
+        Last updated: February 13, 2026.
         
       </div>
     </div>

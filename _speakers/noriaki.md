@@ -8,9 +8,9 @@ webpage: https://sites.google.com/view/noriaki-hirose/
 
 # Primary affiliation of the speaker
 affil: Toyota Central R&D Labs, UC Berkeley
-affil_short: Toyota, Berkeley
+affil_short: Toyota Central R&D Labs, UC Berkeley
 # Link to the speaker's primary affiliation
-affil_link: 
+affil_link: https://sites.google.com/view/noriaki-hirose/
 
 # An image of the speaker (square aspect ratio works the best) (place in the `assets/img/speakers` directory)
 img: noriaki.jpg
