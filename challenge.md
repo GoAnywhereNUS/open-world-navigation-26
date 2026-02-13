@@ -11,4 +11,4 @@ Together with the [Navitrace benchmark](https://leggedrobotics.github.io/navitra
 
 We invite submissions applying VLMs or Vision-Language-Action models (VLAs) to our publicly hosted [leaderboard](https://huggingface.co/spaces/leggedrobotics/navitrace_leaderboard). Submissions before the cutoff date (_TBC_) will be considered for the Navitrace Challenge prize, to be announced and given out at the workshop.
 
-🏆 **Challenge Winner Award**: _TBC
+🏆 **Challenge Winner Award**: _TBC_

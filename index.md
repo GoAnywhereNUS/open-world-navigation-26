@@ -32,19 +32,19 @@ In particular, this workshop aims to answer the questions:
 <br>
 
 ### <center>Navitrace Challenge</center>
-We are accepting submissions to the Navitrace Challenge for VLMs in navigation! Please refer to the [NaviTrace Challenge](/challenge/) page for more details. 
+We are accepting submissions to the Navitrace Challenge for VLMs in navigation! Please refer to the [NaviTrace Challenge](/open-world-navigation-26/challenge/) page for more details. 
 
 🏆 **Challenge Prize**: _TBC_
 
 ### <center>Call for Videos</center>
 
-We are accepting short videos related to the challenges or failure modes of robot navigation systems in the open world, which we will screen during the workshop. Please refer to the [Call for Videos](/callforvideos/) for more details.
+We are accepting short videos related to the challenges or failure modes of robot navigation systems in the open world, which we will screen during the workshop. Please refer to the [Call for Videos](/open-world-navigation-26/callforvideos/) for more details.
 
 🏆 **Best Video Award**: _TBC_
 
 ### <center>Call for Papers</center>
 
-We are accepting paper submissions related to generalization and failure handling in robot navigation. Please refer to the [Call for Papers](/callforpapers/) for more details.
+We are accepting paper submissions related to generalization and failure handling in robot navigation. Please refer to the [Call for Papers](/open-world-navigation-26/callforpapers/) for more details.
 
 🏆 **Best Paper Award**: _TBC_
 
